@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sections {
+  position: relative;
+  height: 650px;
+}
+
+.section-one {
+  z-index: -1;
+
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-position: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: rgba(2, 2, 2, 0.9);
+  opacity: 1;
+  height: 60%;
+  /* background: transparent; */
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0,
+      transparent 40%,
+      transparent 75%,
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./images/NG-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.sigin {
+  padding: 16px;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  /* max-width: 950px; */
+  padding: 3rem 0;
+  text-align: center;
+  margin: 7rem auto;
+}
+.story h1 {
+  font-size: 4rem;
+  max-width: 650px;
+}
+.story h2 {
+  max-width: 640px;
+  letter-spacing: 3px;
+}
+/* .story {
+  margin: 10rem auto;
+ 
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+} */
+
+input {
+  padding: 29px;
+  width: 590px;
+  border: none;
+}
+.form-control {
+  margin: 3rem auto;
+}
+.form-control h3 {
+  margin: 10px;
+}
+.get-started {
+  padding: 24px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  width: 200px;
+
+  font-size: 20px;
+}
